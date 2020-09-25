@@ -1,0 +1,38 @@
+.steps {
+  display: flex;
+  margin: 25px 0 60px 0;
+
+  .step {
+    color: $mainGray;
+    display: block;
+    background: #e7ecf0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 25% 0 0;
+    &:last-child {
+      margin: 0;
+    }
+    &.active {
+      background: $mainGray;
+      color: #fff;
+    }
+    &.not-allowed {
+      cursor: default;
+    }
+    &.dots {
+      font-size: 20px;
+    }
+    .name-of-step {
+      color: $mainGray;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, 0);
+      width: 150px;
+    }
+  }
+}

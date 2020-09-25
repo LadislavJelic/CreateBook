@@ -1,0 +1,17 @@
+@import "styles/Variables.scss";
+@import "styles/CreateBook.scss";
+@import "styles/Genre.scss";
+@import "styles/Steps.scss";
+@import "styles/SubGenre.scss";
+@import "styles/Buttons.scss";
+@import "styles/AddSubgenre.scss";
+@import "styles/Information.scss";
+@import "styles/AddAnotherBook.scss";
+
+* {
+  box-sizing: border-box;
+}
+.App {
+  width: 800px;
+  margin: auto;
+}

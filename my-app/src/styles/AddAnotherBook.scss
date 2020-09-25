@@ -1,0 +1,44 @@
+.add-another-book-wrapper {
+  border: 1px solid $mainGray;
+  border-radius: 5px;
+  padding: 60px 30px;
+  .ok-sign {
+    width: 120px;
+    height: 120px;
+    background: #e7ecf0;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -20px -20px;
+      height: 22px;
+      width: 40px;
+      border: solid #888;
+      border-width: 0 0 6px 6px;
+      transform: rotate(-45deg);
+    }
+  }
+  .description {
+    color: $mainGray;
+    text-align: center;
+    margin: 20px 0 45px 0;
+    font-weight: bold;
+  }
+  .add-another-book {
+    background: $mainGray;
+    color: #fff;
+    text-align: center;
+    width: 250px;
+    padding: 7px;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
